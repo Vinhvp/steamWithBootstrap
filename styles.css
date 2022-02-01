@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #b8b6b4 !important;
+}
+body{
+    background: url('https://cdn.cloudflare.steamstatic.com/store/promo/lunar2022/lunar2022_bg_tile.jpg?v=5');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo > img{
+    width: 176px;
+    height: 44px;
+}
+
+.navbar1{
+    z-index: 100;
+    position: fixed !important;
+    background: #171a21 !important;
+    width: 100%;
+    height: 104px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 14px !important;
+    text-transform: uppercase;
+    font-family: "Motiva Sans", Sans-serif;
+}
+.nav-logo{
+    padding-left: 230px;
+}
+.btn.btn-success{
+    font-size: 11px;
+    width: 100px;
+    height: 24px;
+    font-family: "Motiva Sans", Sans-serif;
+    color: #e5e4dc !important;
+    background: #5c7e10 !important;
+    border-radius: 0;
+    background-image: url('https://store.cloudflare.steamstatic.com/public/shared/images/header/btn_header_installsteam_download.png?v=1') !important;
+    background-repeat: no-repeat !important;
+    background-position: left center !important;
+    padding-left: 19px;
+}
+.install{
+    position: fixed;
+    top: 7px;
+    right: 350px;
+}
+.install > a{
+    text-transform: lowercase !important;
+    margin-left: 10px;
+    font-size: 14px;
+    font-family: "Motiva Sans", Sans-serif;
+}
+.container{
+    width: 100% !important;
+}
+.banner{
+    color: #d9d9d9;
+    font-family: "Motiva Sans", Sans-serif !important;
+    text-transform: capitalize;
+    font-size: 13px;
+    background-image: url('https://cdn.cloudflare.steamstatic.com/store/promo/lunar2022/lunar2022_header_bg.jpg?v=2');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute; 
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 500px;
+    width: 100%;
+}
+.banner >img{
+
+    position: absolute;
+    object-fit: cover;
+    width: 50%;
+    top: 50%;
+    left: 25%;
+}
+.navbar{
+    background: linear-gradient(
+        90deg
+        , rgb(222 78 52) 11.38%, rgb(223 51 15) 25.23%, rgb(92 16 67) 100%);
+    font-size: 12px;
+    font-weight: bold;
+    font-family: "Motiva Sans", Sans-serif !important;
+    height:  35px;
+    position: absolute;
+    width: 70%;
+    top: 25%;
+    left: 18%;
+    margin: 0 auto;
+}
+.form-control{
+    color: #0e1c25;
+    font-size: 14px;
+    margin-top: 1px;
+    text-shadow: 1px 1px 0px rgb(255 255 255 / 10%);
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: 300;
+    background: rgb(219, 108, 105);
+}
+.form-inline{
+    width: 50%;
+    right: 0;
+}
